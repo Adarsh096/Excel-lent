@@ -35,32 +35,29 @@ The operations allowed in excel are mentioned below with some examples-
 - min()
   ```text
   cell will be calculated as :
-    = 
+    = min(B1,B2,B3...)
+    OR
+    = min(B1:B10)
   ```
 - count()
   ```text
-  cell will be calculated as :
-    = 
+  Counts no of cells, cell will be calculated as :
+    = count(B1:C5)
   ```
  - counta()
   ```text
-  cell will be calculated as :
+  Counts number of non empty cells, cell will be calculated as :
     =
-  ```
- - counta()
-  ```text
-  cell will be calculated as :
-    = 
   ```
  - average()
   ```text
   cell will be calculated as :
-    = 
+    = average(B1:B10)
   ```
  - concat()
   ```text
   cell will be calculated as :
-    = 
+    = concat(B3,C9)
   ```
  - current time
   ```text
